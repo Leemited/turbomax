@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+/*wraper 공통*/
+.com_w{max-width: 1440px;width: 100%;margin: 0 auto;}
+/*타이틀 공통*/
+.title{font-size: 48px;font-weight: 800;text-align:  center;margin-top: 130px ;color:#191919}
+.sub_tit{font-size: 16px; font-weight: 400px; text-align: center;margin-top: 10px; color: #767676}

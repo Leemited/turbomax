@@ -1,0 +1,271 @@
+@charset "utf-8";
+@import "Font/NotoSans.css";
+
+/*회원가입 메인페이지*/
+#reg_title{font-size: 50px; font-weight: ;text-align: center; margin-top:130px;  }
+.register{width: 100%;  max-width: 850px;height: 952px;margin: 0 auto;border: 1px solid #fff ;
+}
+.register p{width: 850;height: 40px;background:url(./img/check.png) no-repeat 18% 50% #015AAA ;color:#fff ;line-height: 40px;text-align: center;font-size: 16px;margin: 16px auto}
+/*회원가입약관*/
+#fregister_term{
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+
+#fregister_term h2{
+    font-size: 18px;
+}
+#fregister_term h4{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size:14px;
+    font-weight: 400;
+}
+textarea{
+    margin-top: 16px;
+    width: 100%;
+    height: 180px;
+    border: 3px solid #333;
+}
+
+#agree11{
+    position: absolute;
+    right: 0;
+    top: 21px;
+    width: 18px;
+    height: 18px;
+}
+#agree11[type="checkbox"]+label:active:before{ border: 1px solid #015AAA;}
+
+/*개인정보처리방침안내*/
+#fregister_private{
+    margin-top:38px;
+    height: 150px;
+    position: relative;
+}
+
+#fregister_private h2{
+    font-size: 18px;
+}
+#fregister_private div{
+    margin-top: 16px;
+    width: 100%;
+    border: 2px solid #333;
+}
+
+#fregister_private tr:first-child{
+    width: 100%;
+    height: 38.5px;
+    position: relative;
+}
+
+#fregister_private th{
+    width: 283.333333px;
+    font-size: 16px;
+    border: 0.5px #333 solid;
+}
+#fregister_private div table tbody tr td{
+    font-size: 14px;
+}
+#fregister_private tbody tr:first-child{
+    height: 48.5px;
+    border: 0.5px #333 solid;
+}
+#fregister_private tbody tr:first-child td:last-child{
+    height: ;
+}
+#fregister_private tbody tr:last-child{
+    height: 63px;
+}
+#fregister_private td{
+    font-size: 14px;
+    text-align: center;
+    border: 0.5px #333 solid;
+}
+#fregister_private table{
+    border: 0.5px #333 solid;
+    border-collapse: collapse;}
+
+#fregister_private h4{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size:14px;
+    font-weight: 400;
+}
+/*회원가입약관 모두동의*/
+#fregister_chkall{
+   position: absolute;
+    top:803px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding-bottom: 2px;
+    border-bottom: 1px solid #333;
+    cursor: pointer;
+    }
+#fregister_chkall label{
+    cursor: pointer;
+}
+
+#fregister_chkall label span{
+    font-size: 14px;
+}
+
+#login_input{position:relative;margin-top:40px}
+
+/*회원가입-취소 버튼*/
+.btn_confirm{
+    width: 100%;
+    position: absolute;
+    width: 345px;
+    top:846px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top:0px;
+}
+
+.btn_close, .btn_submit{
+    width:170px;
+    height: 40px;
+    border-radius: 20px;
+    display: block;
+    font-size: 14px;
+}
+.btn_submit{
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: #015AAA;
+    border: 0px solid #000;
+}
+.btn_confirm a{
+   line-height:  40px;
+    border:1px solid #707070;
+}
+.btn_confirm a:hover{
+    background-color: #f7f7f7;
+}
+
+
+/*로그인 페이지*/
+#mb_login{
+    width: 530px;
+    margin: 0 auto;
+    position: relative;
+}
+.mb_log_cate h2{
+    margin-top: 228px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.mb_log_cate h3{
+    margin-top: 72px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #444;
+    font-family: 'Noto Sans CJK KR Light',dotum,sans-serif;
+}
+#login_id{
+    width: 380px;
+    height: 40px;
+    border:1px solid #015aaa;
+    border-radius: 10px;
+    padding-left:15px;
+}
+
+#login_pw{
+    border:1px solid #015aaa;
+    width: 380px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 10px;
+    padding-left:15px;
+}
+
+.login_if_auto input{
+    margin-top: 14px;
+    width: 18px;
+    height: 18px;
+
+}
+
+.login_if_auto label{
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 5px;
+    font-size: 14px;
+    font-family: 'Noto Sans CJK KR Regular',dotum,sans-serif;
+}
+
+.login_if_lpl{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login_if_lpl a{
+    flex-basis: 32%;
+    height: 40px;
+    line-height: 39px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 14px;
+}
+
+#login_id_lost, #login_password_lost{
+    border: 1px solid #191919;
+    font-family: 'Noto Sans CJK KR Regular',dotum,sans-serif;
+}
+
+
+.join{
+    border:2px solid #015aaa;
+    color: #015aaa;
+    font-family: 'Noto Sans CJK KR Bold',dotum,sans-serif;
+}
+
+.btn_submit_login{
+    width:140px;
+    height: 94px;
+    border-radius: 10px;
+    display: block;
+    font-size: 18px;
+    position: absolute;
+    top:0;
+    right: 0;
+    background-color: #015AAA;
+    color: #fff;
+    font-family: 'Noto Sans CJK KR Bold',dotum,sans-serif;
+    border: 0px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
